@@ -26,5 +26,6 @@ public class InterfaceExample {
         Duck duck=new Duck();
         duck.fly();
         duck.swim();
+
     }
 }
