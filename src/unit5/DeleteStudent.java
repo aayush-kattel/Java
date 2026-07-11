@@ -11,6 +11,7 @@ public class DeleteStudent {
 
             Statement stmt=conn.createStatement();
             stmt.executeUpdate(sql);
+
             System.out.println("Data deleted successfully");
 
             conn.close();
